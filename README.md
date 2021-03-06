@@ -1,4 +1,10 @@
 # wrk2
+  
+  This is a copy/fork from [DeathStarBench wrk2](https://github.com/delimitrou/DeathStarBench/tree/master/socialNetwork/wrk2)
+
+  **Modifications mady be Ata**
+  
+  I'm using `wrk` load generator from a guest Ubuntu VM run by vagrant on my macbook. The target service is port-forwarded on the host (using `kubectl`) listening on port `8080`. My modification adds the mac OS host special IP (a.k.a `10.0.2.2`) address to the scripts to forward the load from the vagrant guest machine to the mac OS host machine and finally to the kubernetes cluster.
 
   **Modifications made by Shuang**
 
