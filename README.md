@@ -8,6 +8,7 @@
 
   As a result, in all of the following commands and exampled, replace the hosts (such as `127.0.0.1`) with the special host IP address and port `10.0.2.2:8080`.
 
+ To spin up the vagrant guest machine, simply run: `vagrant up && vagrant ssh`.
   **Modifications made by Shuang**
 
   wrk and wrk2 are both close-loop load generators; a new request will not be
